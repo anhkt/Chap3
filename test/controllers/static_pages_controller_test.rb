@@ -23,7 +23,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   end
 
   test "should get contact" do
-    get :contatc
+    get :contact
     assert_response :success
   end
 
